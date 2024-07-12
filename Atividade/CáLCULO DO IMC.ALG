@@ -1,0 +1,30 @@
+Algoritmo "Cálculo do IMC"
+
+Var
+   peso, altura, IMC : real
+
+Inicio
+
+    escreval("Cálculo do IMC")
+    escreva("Digite o peso (kg): ")
+    leia(peso)
+    escreva("Digite a altura (cm): ")
+    leia(altura)
+imc := peso / (altura * altura)
+    escreval("Seu IMC é: ", imc:4:2)
+    
+    se (imc < 18.5) entao
+    escreval("Você está abaixo do peso.")
+senao
+    se (imc >= 18.5) e (imc < 24.9) entao
+        escreval("Você está com peso normal.")
+    senao
+        se (imc >= 25) e (imc < 29.9) entao
+            escreval("Você está com sobrepeso.")
+        senao
+            escreval("Você está com obesidade.")
+        fimse
+    fimse
+fimse
+
+Fimalgoritmo
