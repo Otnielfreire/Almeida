@@ -1,0 +1,11 @@
+<style>
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px;
+}
+</style>
