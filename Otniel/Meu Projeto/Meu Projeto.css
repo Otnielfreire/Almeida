@@ -9,7 +9,8 @@ body {
     margin: auto;
 }
 .container span{
-    color:  rgb(255, 255, 255);
+    color:  rgb(159, 5, 206);
+    font-weight: bold;
 }
 .bar {
     background-color: #006341;
@@ -34,15 +35,16 @@ h2 {
 }
 .button {
     display: inline-block;
-    border: 2px solid #454545;
+    border: 3px solid #9913b4;
     padding: 10px 30px;
-    border-radius: 3px;
-    color: #454545;
+    border-radius: 10px;
+    color: #000000;
     text-decoration: none;
+    font-weight: bold;
 }
 .button:hover {
-    color: #FFF;
-    background-color: #454545;
+    color: #ffffff;
+    background-color: #9712a8;
 }
 
 header .line {
@@ -58,6 +60,11 @@ header .line {
 .header-left img {
     width: 100px;
     height: 100px;
+}
+.header-left img:hover{
+    transform: scale(
+      1.1
+    );
 }
 .header--right {
     display: flex;
@@ -93,9 +100,13 @@ header .line {
     width: 24px;
     height: 24px;
 }
-
+.header--menu:hover{
+    transform: scale(
+      1.1
+    );
+}
 .banner {
-    background-image: url('./assets/bg.png');
+    background-image: url('./assets/bg.jpg');
     background-position: center;
     background-size: cover;
     padding-top: 90px;
@@ -107,12 +118,11 @@ header .line {
 .banner--images img {
     width: 148px;
     height: 148px;
-    border: 6px solid #6b2288;
+    border: 6px solid #790da3;
     border-radius: 50%;
     margin-right: 40px;
 }
 .banner--images img:hover {
-    /*Adiciona animação */
     transform: scale(
       1.1
     ); 
@@ -134,7 +144,7 @@ header .line {
 .area1--img1 {
     background-color: green;
     height: 350px;
-    background-image: url('./assets/f2.jpg');
+    background-image: url('./assets/f2.png');
     background-size: cover;
     background-position: center;
 }
@@ -156,6 +166,16 @@ header .line {
 .area2--text {
     margin-bottom: 50px;
     line-height: 25px;
+    color: #fcad1c;
+}
+.area2--text p{
+    color: #04d60f;
+    font-weight: bold;
+}
+.area2--text p:hover{
+    transform: scale(
+      1.1
+    ); 
 }
 .area2--img1 {
     background-color: green;
@@ -217,9 +237,9 @@ header .line {
 }
 
 footer {
-    background-color: #390b4b;
+    background-color: #cecbcb;
     color: #FFF;
-    padding: 80px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -296,3 +316,49 @@ footer {
         padding: 40px 20px;
     }
 }
+
+.final{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.final p:hover{
+    color: #fff;
+    transform: scale(
+      1.1
+    );
+}
+.final p{
+    color: #000;
+    font-weight: bold;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.logo{
+    margin-top: 500px;
+}
+.footer img{
+    width: 200px;
+    height: 200px;             
+}
+
+.buttonFooter{
+    border: 2px solid #000;
+    padding: 30px;
+    border-color: #680e8b;
+    border-radius: 30px;
+    color: #680e8b;
+    font-weight: bold;
+    border: 4px solid #9913b4;
+}
+.buttonFooter:hover {
+    transform: scale(
+      1.1
+    ); 
+  }
