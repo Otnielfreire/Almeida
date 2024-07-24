@@ -45,6 +45,9 @@ h2 {
 .button:hover {
     color: #ffffff;
     background-color: #9712a8;
+    transform: scale(
+    1.2
+    ); 
 }
 
 header .line {
@@ -123,8 +126,9 @@ header .line {
     margin-right: 40px;
 }
 .banner--images img:hover {
+    background-color: #6b147c;
     transform: scale(
-      1.1
+      1.2
     ); 
   }
 .area1 {
@@ -201,10 +205,15 @@ header .line {
     background-image: url('./assets/bg2.jpg');
     background-size: cover;
     background-position: left;
+    color: #000000;
 }
 .area3--text {
     margin-bottom: 50px;
     line-height: 25px;
+}
+.area3--text p{
+    color: #fcad1c;
+    font-weight: bold;
 }
 .area3--img1 {
     background-image: url('./assets/f5.jpg');
@@ -223,6 +232,7 @@ header .line {
 .area4--text {
     margin-bottom: 50px;
     line-height: 25px;
+    font-weight: bold;
 }
 .area4--img1 {
     background-image: url('./assets/bg3.jpg');
@@ -237,7 +247,7 @@ header .line {
 }
 
 footer {
-    background-color: #cecbcb;
+    background-color: #eeeeee;
     color: #FFF;
     padding: 20px;
     text-align: center;
@@ -343,22 +353,14 @@ footer {
 .logo{
     margin-top: 500px;
 }
+
 .footer img{
-    width: 200px;
-    height: 200px;             
+    width: 150px;
+    height: 150px;             
 }
 
-.buttonFooter{
-    border: 2px solid #000;
-    padding: 30px;
-    border-color: #680e8b;
-    border-radius: 30px;
-    color: #680e8b;
-    font-weight: bold;
-    border: 4px solid #9913b4;
-}
-.buttonFooter:hover {
+.footer img:hover {
     transform: scale(
-      1.1
-    ); 
-  }
+      1.3
+    );  
+}
