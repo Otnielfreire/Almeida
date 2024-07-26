@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poke API</title>
+    <link rel="stylesheet" href="teste.css">
+</head>
+<style>
+    img {
+        width: 150px;
+        height: 150px;
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="img">
+            <img src="./assets/logo.png" alt="Imagem">
+        </div>
+        <label for="pokemonInput">Nome do Pokemon</label>
+        <input type="text" id="pokemonInput" 
+        placeholder="Digite o nome do Pokemon ou o ID">
+        <button id="fetchPokemonButton">Buscar</button>   
+        <div class="pokemon-Details" id="pokemonDetails"></div> 
+    </div>
+    <script src="teste.js"></script>  
+</body>
+</html>
