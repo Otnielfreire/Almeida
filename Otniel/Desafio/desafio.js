@@ -42,3 +42,13 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     });
 });
+
+rickInput.addEventListener('keypress', function(event) {
+    if (event.key === 'Enter') {
+        // Impede o comportamento padrão de submissão do formulário
+        event.preventDefault();
+        // Simula um clique no botão de busca
+        fetchRickButton.click();
+    }
+});
+
