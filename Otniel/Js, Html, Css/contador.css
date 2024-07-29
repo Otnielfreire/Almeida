@@ -9,22 +9,34 @@ body {
 }
 
 .container {
-    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
 }
-
 .counter {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
 button {
-    background-color: #007bff;
+    background-color: #399c3e;
     color: white;
     border: none;
     padding: 10px 20px;
     cursor: pointer;
     font-size: 18px;
     margin: 0 10px;
+}
+
+button:hover {
+    background-color: #115a15;
+    transform: scale(
+      1.1
+    ); 
 }
 
 button:focus {

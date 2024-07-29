@@ -13,7 +13,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra ao redor do contêiner */
 }
 .form-container h2 {
-    margin-bottom: 20px; /* Margem inferior do título do formulário */
+    margin-left: 35%;
 }
 .form-container input {
     width: 95%; /* Largura dos campos de entrada (95% da largura do contêiner) */
@@ -29,7 +29,9 @@ body {
     border: none; /* Remove a borda do botão */
     border-radius: 4px; /* Borda arredondada do botão */
     cursor: pointer; /* Altera o cursor ao passar sobre o botão */
+    
 }
 .form-container button:hover {
-    background-color: #45a049; /* Cor de fundo do botão ao passar o cursor sobre ele */
+    background-color: #085e0c; /* Cor de fundo do botão ao passar o cursor sobre ele */
+    transform: scale(1.1);
 }

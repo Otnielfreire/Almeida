@@ -15,7 +15,7 @@ cadastroForm.addEventListener('submit', function(event) {
 
         atualizarListaAlunos();
 
-        mensagem.textContent = `Aluno cadastrado com sucesso! Nome: ${nome} Telefone: ${telefone}`;
+        mensagem.textContent = `Aluno cadastrado com sucesso!`;
         mensagem.style.color = '#28a745';
 
         cadastroForm.reset();
